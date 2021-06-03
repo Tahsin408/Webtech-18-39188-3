@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2 style="color:Red;">Donor Information</h2>
+
+<form action="/action_page.php">
+
+  <b><label for="fname">First name:</label></b>
+  <input type="text" id="fname" name="fname" value=""><br>
+  
+  <b><label for="lname">Last name:</label></b>
+  <input type="text" id="lname" name="lname" value=""><br>
+  
+  <b><label for="cname">Address 1:</label></b>
+  <input type="text" id="add1" name="add1" value=""><br>
+  
+  <b><label for="cname">Address 2:</label></b>
+  <input type="text" id="add2" name="add2" value=""><br>
+  
+  <b><label for="cname">City:</label></b>
+  <input type="text" id="city" name="city" value=""><br>
+  
+  <b><label for="states">State:</label></b>
+
+<select id="states">
+  <option value="alabama">Alabama</option>
+  <option value="alaska">Alaska</option>
+  <option value="arizona">Arizona</option>
+  <option value="arkansas">Arkansas</option>
+  <option value="california">California</option>
+  <option value="colorado">Colorado</option>
+  <option value="connecticut">Connecticut</option>
+  <option value="delaware">Delaware</option>
+  <option value="florida">Florida</option>
+  <option value="georgia">Georgia</option>
+  <option value="hawaii">Hawaii</option>
+</select><br>
+  
+  <b><label for="zcode">Zip Code:</label></b>
+  <input type="text" id="zcode" name="zcode" value=""><br>
+  
+  <b><label for="country">Country:</label></b>
+
+<select id="country">
+  <option value="united">United</option>
+  <option value="america">America</option>
+  <option value="usa">USA</option>
+</select><br>
+  
+  <b><label for="phone">Phone:</label></b>
+  <input type="text" id="phone" name="phone" value=""><br>
+  
+  <b><label for="fax">Fax:</label></b>
+  <input type="text" id="fax" name="fax" value=""><br>
+  
+  <b><label for="email">Email:</label></b>
+  <input type="text" id="email" name="email" value=""><br>
+  
+  <b><label for="donation">Donation Amount:</label></b>
+  
+  <input type="radio" id="money" name="none" value="money">
+  <label for="money">None</label>
+  
+  <input type="radio" id="money" name="$50" value="money">
+  <label for="money">$50</label>
+  
+  <input type="radio" id="money" name="$70" value="money">
+  <label for="money">$75</label>
+  
+  <input type="radio" id="money" name="$100" value="money">
+  <label for="money">$100</label>
+  
+  <input type="radio" id="money" name="$250" value="money">
+  <label for="money">$250</label>
+  
+  <input type="radio" id="money" name="other" value="money">
+  <label for="money">Other</label><br>
+  
+  <sup>(check a button or type in your amount)</sup>
+  
+  <b><label for="oamount">Other Amount $:</label></b>
+  <input type="text" id="oamount" name="oamount" value=""><br>
+  
+  
+  <b><label for="recdono">Recurring Donation:</label></b>
+  
+  <input type="checkbox" id="recdono" name="recdono" value="money"> I am interested in giving on a regular basis <br>
+  <sup>(check if yes)</sup> Monthly Credit Card $ <br>
+  <input type="text" id="money" name="money" value=""> For         <input type="text" id="money" name="money" value=""> Months
+  
+  
+<h2 style="color:Red;">Honorarium and Memorial Donation Information</h2>
+ 
+ <b>I would like to make this donation</b>
+ 	
+  <br><input type="radio" id="respect" name="repect" value="respect">
+  <label for="condolences">To Honor</label><br>
+  
+  <input type="radio" id="respect" name="repect" value="respect">
+  <label for="condolences" >In Memory of</label><br>
+  
+  <b><label for="name">Name:</label></b>
+  <input type="text" id="name" name="name" value=""><br>
+  
+  <b><label for="acknowledgedono">Acknowledge Donation to:</label></b>
+  <input type="text" id="acknowledgedono" name="acknowledgedono" value=""><br>
+  
+  <b><label for="address">Address:</label></b>
+  <input type="text" id="address" name="address" value=""><br>
+  
+  <b><label for="city">City:</label></b>
+  <input type="text" id="city" name="city" value=""><br>
+  
+  <b><label for="states">State:</label></b>
+
+<select id="states">
+  <option value="Alabama">Alabama</option>
+  <option value="Alaska">Alaska</option>
+  <option value="Arizona">Arizona</option>
+  <option value="Arkansas">Arkansas</option>
+  <option value="California">California</option>
+  <option value="Colorado">Colorado</option>
+  <option value="Connecticut">Connecticut</option>
+  <option value="Delaware">Delaware</option>
+  <option value="Florida">Florida</option>
+  <option value="Georgia">Georgia</option>
+  <option value="Hawaii">Hawaii</option>
+</select><br>
+
+  <b><label for="zcode">Zip Code:</label></b>
+  <input type="text" id="zcode" name="zcode" value=""><br>
+  
+  <h2 style="color:Red;">Additional Information</h2>
+  <small>Please enter your name, company or organization as you would like it to appear in our publication:</small><br>
+  
+  <b><label for="name">Name:</label></b>
+  <input type="text" id="name" name="name" value=""><br>
+  
+  <input type="checkbox" id="option1" name="option1" value="option1">
+  <label for="option1"> I would like my gift to renaim anonymous.</label><br>
+  
+  <input type="checkbox" id="option2" name="option2" value="option2">
+  <label for="option2">My employer offers a matching gift program. I will mail the matching gift form.</label><br>
+  
+  <input type="checkbox" id="option3" name="option3" value="option3">
+  <label for="option3">Please save the cost of acknowledging this gift by not mailing a thank you letter.</label><br>
+  
+  <br><b><label for="comment">Comments:</label></b><br>
+  <textarea rows="4" cols="50" name="comment"                     form="usrform"placeholder="(Please type any questions or feedback here)"></textarea>
+  
+  <br><b><label for="contact">How may we contact you?:</label></b><br>
+  
+  <input type="checkbox" id="e-mail" name="e-mail" value="e-mail">
+  <label for="e-mail">E-mail</label><br>
+  
+  <input type="checkbox" id="pmail" name="pmail" value="pmail">
+  <label for="pmail">Postal Mail</label><br>
+  
+  <input type="checkbox" id="tele" name="tele" value="tele">
+  <label for="tele">Telephone </label><br>
+  
+  <input type="checkbox" id="fax" name="fax" value="fax">
+  <label for="fax">Fax</label><br>
+  
+  <p> I would like to receive newletters and information about special events by:<p>
+  
+  <input type="checkbox" id="e-mail" name="e-mail" value="e-mail">
+  <label for="e-mail">E-mail</label><br>
+  
+  <input type="checkbox" id="pmail" name="pmail" value="pmail">
+  <label for="pmail">Postal Mail</label><br>
+  
+  <br><input type="checkbox" id="voluntee" name="volunteer" value="volunteer">
+  <label for="pmail">I would like to information about volunteering with the Institute</label><br>
+  
+  <br><br><input type="submit" value="Submit">
+  
+  
+  
+  
+</form> 
+
+
+</body>
+</html>
