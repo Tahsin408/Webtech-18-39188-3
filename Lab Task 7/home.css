@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,700&display=swap');
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+html {
+	font-size: 15px;
+	font-family: 'Lora', san-seri;
+}
+body
+{
+	min-height: 1000px;
+}
+
+.banner {
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("image/groceries.png");
+	background-size: cover;
+}
+.banner .content
+{
+	max-width: 900px;
+	text-align: center;
+}
+.banner .content h1
+{
+	font-size: 5em;
+	color: black;
+
+}
+
+.btn
+{
+	font-size: 1em;
+	color: #fff;
+	background: #ff0157;
+	display: inline-block;
+	padding: 10px 30px;
+	margin-top: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+	transition: 0.5s;
+}
+.btn:hover
+{
+	letter-spacing: 6px;
+}
+header
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 40px 100px;
+	z-index: 10000;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: 0.5s;	
+}
+header.sticky
+{
+	background: #fff;
+	padding: 10px 100px;
+	box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+header .logo
+{
+	color: #FFD700;
+	font-weight: 700;
+	font-size: 2em;
+	text-decoration: none;
+}
+header.sticky .logo
+{
+	color: #111;
+}
+header .logo span
+{
+	color: #ff0157;
+}
+header .navigation
+{
+	position: relative;
+	display: flex;
+}
+header .navigation li
+{
+	list-style: none;
+	margin-left: 50px;
+}
+header .navigation li a
+{
+	text-decoration: none;
+	color: black;
+	font-weight: 500;
+}
+header.sticky .navigation li a
+{
+	color: #111;
+}
+header.sticky .navigation li a:hover
+{
+	color: #ff0157;
+}
+section 
+{
+	padding: 100px;
+}
+.row 
+{
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.row .col50
+{
+	position: relative;
+}
+.titleText
+{
+	color: #111;
+	font-size: 4em;
+	font-weight: 300;
+
+}
+.titleText span
+{
+	color: #ff0157;
+	font-weight: 700;
+	font-size: 1.5em;
+}
+.row .col50 .imgBx
+{
+	position: relative;
+	width: 100%;
+	min-height: 300px;
+}
+.title
+{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.service .content
+{
+	display: flex;
+	justify-content: center;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	margin-top: 40px;
+}
+.service .content .box
+{
+   width: 340px;
+   margin: 20px;
+   border: 15px solid #fff;
+   box-shadow: 0 5px 35px rgba(0,0,0,0.08);
+}
+.service  .content .box .imgBx
+{
+	position: relative;
+	width: 100%;
+	height: 300px;
+}
+.service  .content .box .imgBx img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.titleLog
+{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url('image/login.jpg');
+	background-size: cover;	
+
+}
+
+.titlereg
+{
+   	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url('image/login.jpg');
+	background-size: cover;	
+}
